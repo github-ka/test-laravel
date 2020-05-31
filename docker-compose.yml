@@ -16,10 +16,10 @@ services:
     # - MYSQL_ROOT_PASSWORD=rootk
     - MYSQL_ALLOW_EMPTY_PASSWORD=true
     - MYSQL_DATABASE=db
-    - MYSQL_USER=root
-    - MYSQL_PASSWORD=pass
+    # - MYSQL_USER=root
+    # - MYSQL_PASSWORD=pass
     ports:
-    - 3306:3306
+    - 3305:3306
     volumes:
     # 初期データを投入するSQLが格納されているdir
     # - ./db/mysql_init:/docker-entrypoint-initdb.d
